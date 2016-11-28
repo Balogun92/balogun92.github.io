@@ -1,0 +1,52 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+#top{
+	float: right;
+}
+
+#first strong{
+    color: red;
+    font-size: 20px;
+}
+#login{
+	float: right;
+}
+#head-shoes2{
+	float: right;
+	width: 49%;
+    height:400px;
+}
+#head-shoes1{
+	width: 50%;
+}
+#get button{
+	border-radius:10px;
+}
+
+#special strong{
+	color: red;
+}
+#row1 button{
+   border-radius: 10px;
+}
+#contain{
+	background-color: white;
+}
+body{
+	background-color:  #e6e6e6;
+}
+#header{
+	background-color: white;
+}
+#image {
+   transition: all .4s ease-in-out;
+}
+ #image:hover {
+	transform: scale(1.4);
+}
+
+
+
