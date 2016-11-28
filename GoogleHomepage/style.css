@@ -1,0 +1,59 @@
+body{
+	background-color: white;
+}
+img{
+	height: 20%;
+}
+header{
+	text-align: right;
+	text-decoration: none;
+	word-spacing: 5px;
+
+}
+div{
+	text-align: center; 
+}
+h3{
+	padding-left: 280px;
+	margin-top: -30px;
+	color:  #1a75ff; 
+}
+.box{
+	width: 600px;
+	padding-bottom: 300px;
+	margin-top: 50px;
+	height: 60px;
+}
+h5{
+	margin-top: -20px;
+	text-align: center;
+	word-spacing: 5px;
+}
+
+#move{
+padding: 100px 100px 50px 100px;
+}
+footer{
+	background-color:#e6e6e6;
+	bottom:0;
+	position: absolute;
+	display: inline;
+	width: 100%;
+	padding-top: 10px;
+	word-spacing: 5px;
+}
+.footR{
+	float: right;
+}
+.footL{
+	float: left;
+}
+button{
+	height: 40px;
+	background-color:#e6e6e6;
+	border:none;
+}
+#move input{
+	height: 90px;
+}
+
