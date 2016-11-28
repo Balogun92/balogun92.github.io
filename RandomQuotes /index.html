@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>A Random Quote Machine</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" src="bootstrap.js"></script>
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+</head>
+<style type="text/css">
+body{
+	background-image: url("images/467101c0b655676d478ae998a1f4440f.jpg");
+  font-family: italic;
+}
+h1{
+	color: white;
+}
+#date{
+    color: white;
+}
+.well{
+  font-size: 16px;
+}
+</style>
+<body>
+	<div  class="container fluid">
+		<h1 class="text-center"> QUOTES BY LEGEND
+		<br>
+		Dr Maya Angelou</h1>
+		<p id="date" class="pull-right"> </p>
+		<script type="text/javascript">
+		document.getElementById("date").innerHTML = Date();
+		</script>
+    <br>
+    <br>
+    <br>
+		<div class="well">
+			<p id="quotesText"> My Mission in life is not survive, but to thrive; and to do so with some passion, some compassion, some humour, and some style.
+      </p>
+      <p id = "authorText"> Dr Maya Angelou
+        </p>
+       
+		</div>
+		<button type="button" class="btn btn-primary" id="newQuote"> New Quote</button>
+    <button type="button" class="btn btn-primary" id="tweetQuote">Twitter</button>
+	</div>
+  <!-- <div class ="container fluid">
+<h1 class="text-center">
+  QUOTES  BY LEGEND
+  <br>
+  Dr Maya Angelou</h1>
+  <div> 
+    <p id= "date">
+      </p>
+</div>
+    <div class="well">
+    <p id="quotesText"> My Mission in life is not survive, but to thrive; and to do so with some passion, some compassion, some humour, and some style.
+      </p>
+      <p id = "authorText"> Dr Maya Angelou
+        </p>
+  </div>
+  <button type="button" class="btn btn-primary" id="newQuote">New Quote
+  </button>
+  <button class= "btn btn-primary" id ="tweetQuote"> </button>
+  </div>
+  
+ -->
+</body>
+</html>
+<script type="text/javascript" src="script.js"></script>
